@@ -6,18 +6,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> PRÀCTICA 6 - HTML Forms + CSS </title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"><!--Direcció on està tots els estils de la pàgina web-->
     </head>
     <body>
-        <h1>El meu primer formulari</h1>
-        <h3>Les teves dades personals:</h3>
+        <h1>El meu primer formulari</h1><!--Titol-->
+        <h3>Les teves dades personals:</h3><!--Titol secundari-->
         <div>
-        <form action="resultat.html">
-            <label for="fnom">Nom:</label>
-            <input id="nom" type="text" name="fnom" id="fnom">
+        <form action="resultat.html"><!--Formulari-->
+            <label for="fnom">Nom:</label><!--Una fila del columne-->
+            <input id="nom" type="text" name="fnom" id="fnom"><!--Camp per introduir dades-->
             <label for="fcognom">Cognom:</label>
             <input id="nom" type="text" name="fcognom" id="fcognom">
-            <br>
+            <br><!--Salt de línea-->
             <br>
             <label for="fedat">Edat:</label>
             <input class="number" type="number">
@@ -46,7 +46,7 @@
             <br>
             <br>
             <label for="fcicle">Selecciona el curs:</label>
-            <select id="fcicle" name="fcicle">
+            <select id="fcicle" name="fcicle"><!--Camp de tipus selecció-->
               <option value="primer">Primer</option>
               <option value="segon">Segon</option>
             </select>
@@ -55,10 +55,10 @@
             <label>Oberservacions:</label>
             <br>
             <br>
-            <textarea name="message" rows="10" cols="30">Escriu el teu missatge</textarea>
+            <textarea name="message" rows="10" cols="30">Escriu el teu missatge</textarea><!--Camp on es emplena un text llarg-->
             <br>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"><!--Botó per enviar el formulari-->
         </div>
         </form>
     </body>
